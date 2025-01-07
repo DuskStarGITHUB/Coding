@@ -12,4 +12,4 @@ github: DuskStarGITHUB
 #polar: # Reemplazar con un solo nombre de usuario de Polar
 #buy_me_a_coffee: # Reemplazar con un solo nombre de usuario de Buy Me a Coffee
 #thanks_dev: # Reemplazar con un solo nombre de usuario de thanks.dev
-custom: [https://paypal.me/SpeencerPulido?country.x=MX&locale.x=es_XC,]
+custom: ['https://paypal.me/SpeencerPulido?country.x=MX&locale.x=es_XC',]

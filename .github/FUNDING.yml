@@ -1,0 +1,15 @@
+# Estas son las plataformas de modelos de financiamiento soportadas
+
+github: DuskStarGITHUB
+#patreon: # Reemplazar con un solo nombre de usuario de Patreon
+#open_collective: # Reemplazar con un solo nombre de usuario de Open Collective
+#ko_fi: # Reemplazar con un solo nombre de usuario de Ko-fi
+#tidelift: # Reemplazar con un solo nombre de plataforma de Tidelift/nombre de paquete, por ejemplo, npm/babel
+#community_bridge: # Reemplazar con un solo nombre de proyecto de Community Bridge, por ejemplo, cloud-foundry
+#liberapay: # Reemplazar con un solo nombre de usuario de Liberapay
+#issuehunt: # Reemplazar con un solo nombre de usuario de IssueHunt
+#lfx_crowdfunding: # Reemplazar con un solo nombre de proyecto de LFX Crowdfunding, por ejemplo, cloud-foundry
+#polar: # Reemplazar con un solo nombre de usuario de Polar
+#buy_me_a_coffee: # Reemplazar con un solo nombre de usuario de Buy Me a Coffee
+#thanks_dev: # Reemplazar con un solo nombre de usuario de thanks.dev
+custom: ['https://paypal.me/SpeencerPulido?country.x=MX&locale.x=es_XC',]

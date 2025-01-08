@@ -17,7 +17,7 @@
 
 ---
 
-## Tecnologías Utilizadas
+## Tecnologías Disponibles de Ejemplo
 
 | Tecnología     | Propósito                            |
 | -------------- | ------------------------------------ |
@@ -28,7 +28,7 @@
 | **Node.js**    | Backend y manejo de procesos.        |
 | **SQL**        | Gestor de bases de datos relacional. |
 
-### Nuevas Tecnologías Próximamente
+### Mas tecnologias en documentacion o explora la web.
 
 El proyecto planea expandirse con las siguientes tecnologías para mejorar su alcance y funcionalidad:
 

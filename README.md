@@ -35,26 +35,7 @@
 
 ---
 
-## Estructura del Proyecto
 
-```plaintext
-root
-├── frontend/        # Código del cliente.
-│   ├── public/  # Archivos estaticos.
-│   ├── src/       # Archivos de la app.
-├── backend/         # Servidores.
-├── database/        # Archivos relacionados con la instancia de base de datos.
-│   ├── scripts/     # Scripts de automatización.
-│   └── sql/         # Archivos SQL para importar.
-├── documentation/   # Documentación detallada.
-│   ├── markdown/      # Documentacion del proyecto en formato.
-│   ├── syntax/      # Documentacion del proyecto sin formato.
-│   └── github/      # Archivos para uso del repositorio en github.
-│   └── template/      # Archivos para uso copiar y emplear rapidamente.
-│   └── tools/      # Recomendaciones de herramientas.
-```
-
----
 
 ## Ejemplos de Uso
 

@@ -30,14 +30,8 @@
 
 ### Mas tecnologias en documentacion o explora la web.
 
-El proyecto planea expandirse con las siguientes tecnologías para mejorar su alcance y funcionalidad:
 
-- **TypeScript**: Tipado estático para mejorar la robustez del código.
-- **Next.js**: Framework de React para optimización de SEO y SSR.
-- **GraphQL**: Consulta avanzada de datos para mejorar la eficiencia del backend.
-- **Docker**: Contenerización para facilitar el despliegue en distintos entornos.
-
-> 💡 _"Estas nuevas tecnologías permitirán a la plataforma expandir su alcance y servir como una base más robusta para futuros proyectos."_
+> 💡 _"Estas  tecnologías permitirán a la plataforma expandir su alcance y servir como una base más robusta para futuros proyectos pero son solo un ejemplo, hay y habra mas en el contenido."_
 
 ---
 

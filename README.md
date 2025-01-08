@@ -1,4 +1,4 @@
-# Coding - Plataforma de Documentación y Componentes Reutilizables
+# Coding - WEB de Documentación y Componentes Reutilizables
 
 **Autor:** DuskStar
 **Descripción:** Un proyecto web completo con frontend y backend, desarrollado con tecnologías modernas para documentar herramientas y técnicas de desarrollo web. Diseñado para ser escalable, seguir buenas prácticas y servir como referencia para futuros proyectos.
@@ -7,7 +7,7 @@
 
 ## Introducción
 
-**Coding** es una plataforma diseñada para:
+**Coding** es una web diseñada para:
 
 - Documentar herramientas y lenguajes.
 - Proveer componentes reutilizables para tareas comunes, como logins, barras de herramientas y tableros interactivos.
@@ -46,20 +46,18 @@ El proyecto planea expandirse con las siguientes tecnologías para mejorar su al
 ```plaintext
 root
 ├── frontend/        # Código del cliente.
-│   ├── components/  # Componentes reutilizables de React.
-│   ├── pages/       # Páginas principales del sitio.
-│   └── styles/      # Archivos de CSS y diseño.
-├── backend/         # Lógica y procesos del servidor.
-│   ├── controllers/ # Manejo de rutas y lógica de negocio.
-│   ├── models/      # Esquemas de datos.
-│   └── routes/      # Definición de rutas del servidor.
-├── database/        # Esquema y scripts de la base de datos.
+│   ├── public/  # Archivos estaticos.
+│   ├── src/       # Archivos de la app.
+├── backend/         # Servidores.
+├── database/        # Archivos relacionados con la instancia de base de datos.
 │   ├── scripts/     # Scripts de automatización.
-│   └── sql/         # Archivos SQL para inicialización.
+│   └── sql/         # Archivos SQL para importar.
 ├── documentation/   # Documentación detallada.
-│   ├── helper/      # Archivos de texto plano con ejemplos.
-│   └── github/      # Documentación en Markdown para GitHub.
-└── tests/           # Pruebas unitarias y de integración.
+│   ├── markdown/      # Documentacion del proyecto en formato.
+│   ├── syntax/      # Documentacion del proyecto sin formato.
+│   └── github/      # Archivos para uso del repositorio en github.
+│   └── template/      # Archivos para uso copiar y emplear rapidamente.
+│   └── tools/      # Recomendaciones de herramientas.
 ```
 
 ---

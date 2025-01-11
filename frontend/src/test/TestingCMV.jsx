@@ -12,7 +12,7 @@ const Testing = ({ onTest, result }) => {
     e.preventDefault();
     if (onTest) {
       onTest(type, message || "Mensaje predeterminado");
-    };
+    }
   };
   //Contenido
   return (

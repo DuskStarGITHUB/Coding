@@ -5,6 +5,8 @@
 import React, { useState } from "react";
 import Testing from "../../test/TestingCMV"; //Controlador Modelo Vista Testeo
 import Responses from "../models/Responses"; //Modelo de metodos de respuestas rapidas
+import '../views/global/themes/themes.css';
+import '../views/global/themes/global.css';
 
 // Lista de controladores
 
@@ -16,4 +18,11 @@ export const ControllerTest = () => {
     setResult(type === "document" ? response : null);
   };
   return <Testing onTest={handleResponseTest} result={result} />;
+};
+
+export const ControllerViews = () => {
+  // Este controlador renderiza contenido
+  const theme = "programing";
+  return Responses.ThemeModel(theme);
+
 };

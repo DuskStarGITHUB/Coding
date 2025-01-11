@@ -4,11 +4,15 @@
 // Recursos
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { ControllerTest } from "./web/controllers/Controllers.jsx"; //Controladores
+import {
+  ControllerTest,
+  ControllerViews,
+} from "./web/controllers/Controllers.jsx"; //Controladores
 
 // Renderizado
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <ControllerTest /> */}
+    <ControllerViews />
   </StrictMode>
 );

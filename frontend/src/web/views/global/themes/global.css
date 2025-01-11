@@ -1,0 +1,5 @@
+/* Css aplicado a todos los elementos en la web */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

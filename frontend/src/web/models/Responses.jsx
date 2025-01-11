@@ -1,7 +1,10 @@
 // Este modelo da respuestas en base a métodos rapidos
 // Archivo: Responses.jsx
 
+//Recursos
 import React from "react";
+import { useEffect } from "react";
+import PageHome from "../views/pages/PageHome";
 
 // Modelo
 const Responses = {
@@ -29,6 +32,12 @@ const Responses = {
         console.log("Tipo de consola no reconocido:", type);
         return "Error: Tipo de respuesta no reconocido.";
     }
+  },
+  ThemeModel: (theme) => {
+    useEffect(() => {
+      document.documentElement.className = theme; 
+    }, [theme]);
+    return <PageHome />;
   },
 };
 

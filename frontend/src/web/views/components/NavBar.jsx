@@ -1,12 +1,33 @@
 // Componente barra de navegación
+// NavBar.jsx
 import React from "react";
+import "./assets/css/navbar.css";
 
-const NavBar = () => {
+const NavBar = ({ currentPage, onPageChange }) => {
+  const handleClick = (section) => {
+    onPageChange(section);
+  };
+
   return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <nav className="navbar">
+      <button
+        className={`nav-item ${currentPage === "contenidos" ? "active" : ""}`}
+        onClick={() => handleClick("contenidos")}
+      >
+        Contenidos
+      </button>
+      <button
+        className={`nav-item ${currentPage === "inicio" ? "active" : ""}`}
+        onClick={() => handleClick("inicio")}
+      >
+        Inicio
+      </button>
+      <button
+        className={`nav-item ${currentPage === "contacto" ? "active" : ""}`}
+        onClick={() => handleClick("contacto")}
+      >
+        Contacto
+      </button>
     </nav>
   );
 };

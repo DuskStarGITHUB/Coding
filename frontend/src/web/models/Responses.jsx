@@ -3,8 +3,9 @@
 
 //Recursos
 import React from "react";
-import { useEffect } from "react";
 import PageHome from "../views/pages/PageHome";
+import PageContents from "../views/pages/PageContents";
+import PageContact from "../views/pages/PageContact";
 
 // Modelo
 const Responses = {
@@ -33,11 +34,13 @@ const Responses = {
         return "Error: Tipo de respuesta no reconocido.";
     }
   },
-  ThemeModel: (theme) => {
-    useEffect(() => {
-      document.documentElement.className = theme; 
-    }, [theme]);
-    return <PageHome />;
+  getPageModel: (page) => {
+    const pages = {
+      inicio: <PageHome />,
+      contenidos: <PageContents />,
+      contacto: <PageContact />,
+    };
+    return pages[page] || <div>Error: Página no encontrada</div>;
   },
 };
 

@@ -5,16 +5,8 @@
 }
 
 :root.duskstar {
-  --bg-color: #3b3b98;
-  --text-color: #ffffff;
-}
-
-:root.light {
-  --bg-color: #fdfdfd;
-  --text-color: #000;
-}
-
-:root.programing {
-  --bg-color: #2b2b2b;
-  --text-color: #4caf50;
+  --bg-color: #000;
+  --text-color: #fff;
+  --border-color: #fbff00;
+  --bg-color-navbar: #fff7001d;
 }

@@ -40,7 +40,10 @@ const Responses = {
       contenidos: <PageContents />,
       contacto: <PageContact />,
     };
-    return pages[page] || <div>Error: Página no encontrada</div>;
+    return pages[page] || <div>Error 404: Página no encontrada</div>;
+  },
+  applyTheme: (theme) => {
+    document.documentElement.className = theme;
   },
 };
 

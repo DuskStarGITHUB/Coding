@@ -7,7 +7,6 @@ const NavBar = ({ currentPage, onPageChange }) => {
   const handleClick = (section) => {
     onPageChange(section);
   };
-
   return (
     <nav className="navbar">
       <button

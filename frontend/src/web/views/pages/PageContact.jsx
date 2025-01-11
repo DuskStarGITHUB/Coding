@@ -1,3 +1,4 @@
+// Página de contacto
 import React from "react";
 
 const PageContact = () => {

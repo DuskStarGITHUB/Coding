@@ -23,17 +23,19 @@ export const ControllerTest = () => {
 
 export const ControllerViews = () => {
   const [currentPage, setCurrentPage] = useState("inicio");
-  const theme = "default";
+  const [theme, setTheme] = useState("default");
   useEffect(() => {
-    document.documentElement.className = theme;
+    Responses.applyTheme(theme);
   }, [theme]);
-  const renderPage = () => {
-    return Responses.getPageModel(currentPage);
-  };
   return (
     <>
       <NavBar currentPage={currentPage} onPageChange={setCurrentPage} />
-      {renderPage()}
+      {Responses.getPageModel(currentPage)}
+      <div>
+        <button onClick={() => setTheme("dark")}>Tema Oscuro</button>
+        <button onClick={() => setTheme("duskstar")}>Tema DuskStar</button>
+        <button onClick={() => setTheme("light")}>Tema Claro</button>
+      </div>
     </>
   );
 };

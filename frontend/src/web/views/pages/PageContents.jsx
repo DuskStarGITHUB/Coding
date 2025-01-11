@@ -1,3 +1,4 @@
+// Página de contenidos
 import React from "react";
 
 const PageContents = () => {

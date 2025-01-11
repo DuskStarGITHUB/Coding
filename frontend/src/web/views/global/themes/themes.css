@@ -1,12 +1,164 @@
-/* Temas de la web */
+/* Tema predeterminado*/
 :root {
-  --bg-color: #000;
+  --bg-color: #1c1c1c;
   --text-color: #fff;
+  --primary-color: #0077cc;
+  --secondary-color: #ff7f00;
+  --border-color: #333;
+  --navbar-bg-color: #292929;
+  --navbar-text-color: #fff;
+  --button-bg-color: #0077cc;
+  --button-hover-bg-color: #005fa3;
+  --input-bg-color: #444;
+  --input-text-color: #fff;
+  --link-color: #ff00ff;
+  --link-hover-color: #00ffff;
+  --highlight-color: #ff6347;
+  --shadow-color: rgba(0, 0, 0, 0.7);
+  --button-text-color: #fff;
+  --input-border-color: #666;
+  --card-bg-color: #333;
+  --card-border-color: #555;
+  --card-text-color: #fff;
+  --header-bg-color: #2c2c2c;
+  --footer-bg-color: #1a1a1a;
+  --color-1: #ff0066;
+  --color-2: #6600ff;
+  --color-3: #66cc33;
+  --color-4: #ffcc00;
+  --color-5: #cc00cc;
+  --color-6: #0033cc;
+  --color-7: #cc3333;
 }
 
+/* Tema oscuro */
+:root.dark {
+  --bg-color: #121212;
+  --text-color: #fff;
+  --primary-color: #bb86fc;
+  --secondary-color: #03dac6;
+  --border-color: #6200ea;
+  --navbar-bg-color: #333333;
+  --navbar-text-color: #e0e0e0;
+  --button-bg-color: #6200ea;
+  --button-hover-bg-color: #3700b3;
+  --input-bg-color: #1f1f1f;
+  --input-text-color: #fff;
+  --link-color: #ffab00;
+  --link-hover-color: #bb86fc;
+  --highlight-color: #ffab00;
+  --shadow-color: rgba(0, 0, 0, 0.7);
+  --button-text-color: #fff;
+  --input-border-color: #444;
+  --card-bg-color: #222;
+  --card-border-color: #444;
+  --card-text-color: #fff;
+  --header-bg-color: #333;
+  --footer-bg-color: #222;
+  --color-1: #b25eff;
+  --color-2: #e87f5d;
+  --color-3: #4bc1bc;
+  --color-4: #cf6185;
+  --color-5: #fc8403;
+  --color-6: #2e6b9c;
+  --color-7: #4b89a3;
+}
+
+/* Tema DuskStar */
 :root.duskstar {
   --bg-color: #000;
   --text-color: #fff;
-  --border-color: #fbff00;
-  --bg-color-navbar: #fff7001d;
+  --primary-color: #fbff00;
+  --secondary-color: #ffd700;
+  --border-color: #b59b00;
+  --navbar-bg-color: #3a3a3a;
+  --navbar-text-color: #fff;
+  --button-bg-color: #fbff00;
+  --button-hover-bg-color: #ffd700;
+  --input-bg-color: #222;
+  --input-text-color: #fff;
+  --link-color: #ff6347;
+  --link-hover-color: #ffd700;
+  --highlight-color: #ff6347;
+  --shadow-color: rgba(0, 0, 0, 0.6);
+  --button-text-color: #000;
+  --input-border-color: #666;
+  --card-bg-color: #111;
+  --card-border-color: #333;
+  --card-text-color: #fff;
+  --header-bg-color: #333;
+  --footer-bg-color: #000;
+  --color-1: #ff0033;
+  --color-2: #00ff00;
+  --color-3: #9933ff;
+  --color-4: #ff6600;
+  --color-5: #ff3399;
+  --color-6: #6600ff;
+  --color-7: #00ffff;
+}
+
+/* Tema claro */
+:root.light {
+  --bg-color: #f4f4f4;
+  --text-color: #333;
+  --primary-color: #0077cc;
+  --secondary-color: #ff7f00;
+  --border-color: #ccc;
+  --navbar-bg-color: #fff;
+  --navbar-text-color: #333;
+  --button-bg-color: #0077cc;
+  --button-hover-bg-color: #005fa3;
+  --input-bg-color: #fff;
+  --input-text-color: #333;
+  --link-color: #0077cc;
+  --link-hover-color: #005fa3;
+  --highlight-color: #ff6347;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --button-text-color: #fff;
+  --input-border-color: #ddd;
+  --card-bg-color: #fff;
+  --card-border-color: #eee;
+  --card-text-color: #333;
+  --header-bg-color: #f4f4f4;
+  --footer-bg-color: #f0f0f0;
+  --color-1: #ff6600;
+  --color-2: #33cc33;
+  --color-3: #ff0066;
+  --color-4: #ff9900;
+  --color-5: #66ccff;
+  --color-6: #cc33cc;
+  --color-7: #00ccff;
+}
+
+/* Tema Neoretro */
+:root.neoretro {
+  --bg-color: #121212;
+  --text-color: #fff;
+  --primary-color: #00e5ff;
+  --secondary-color: #ff00e5;
+  --border-color: #00ff00;
+  --navbar-bg-color: #333333;
+  --navbar-text-color: #e0e0e0;
+  --button-bg-color: #00e5ff;
+  --button-hover-bg-color: #00b8cc;
+  --input-bg-color: #333;
+  --input-text-color: #fff;
+  --link-color: #ff0055;
+  --link-hover-color: #00ff00;
+  --highlight-color: #ff0055;
+  --shadow-color: rgba(0, 0, 0, 0.8);
+  --button-text-color: #000;
+  --input-border-color: #00e5ff;
+  --card-bg-color: #222222;
+  --card-border-color: #00e5ff;
+  --card-text-color: #fff;
+  --header-bg-color: #121212;
+  --footer-bg-color: #1a1a1a;
+  --color-1: #e50000;
+  --color-2: #00e500;
+  --color-3: #e500e5;
+  --color-4: #e5e500;
+  --color-5: #00e5e5;
+  --color-6: #e500e5;
+  --color-7: #00e5ff;
 }

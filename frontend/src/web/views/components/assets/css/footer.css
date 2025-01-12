@@ -1,0 +1,28 @@
+/* Css del footer*/
+.footer {
+  background-color: var(--footer-bg-color);
+  text-align: center;
+  --angle: 0deg;
+  border: 1px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      var(--color-1),
+      var(--color-2),
+      var(--color-3),
+      var(--color-4),
+      var(--color-5),
+      var(--color-6),
+      var(--color-7),
+      var(--color-8),
+      var(--color-9),
+      var(--color-10),
+      var(--color-1)
+    )
+    1;
+  animation: 10s rotateBorder linear infinite;
+  top: auto;
+  bottom: 100%;
+  width: 99.92%;
+  z-index: 1000;
+  position: relative;
+}

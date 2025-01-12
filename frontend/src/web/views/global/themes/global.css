@@ -1,111 +1,27 @@
 /* Css aplicado a todos los elementos en la web */
-:root {
-  /* Propiedades globales */
-  --card-radius: 6px;
-  --button-radius: 4px;
-  --input-radius: 4px;
-  --border-width: 1px;
-  --link-text-transform: uppercase;
-  --header-font-size: 22px;
-  --footer-font-size: 14px;
-  --navbar-height: 50px;
-  --input-padding: 8px;
-  --button-padding: 10px 20px;
-  --card-padding: 12px;
-  --icon-size: 22px;
-  --icon-color: var(--primary-color);
-}
-
-/* Estilos adicionales */
-body {
-  background-color: var(--bg-color);
+html {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
   color: var(--text-color);
-  font-family: "Arial", sans-serif;
-  transition: all 0.3s ease;
+  background: linear-gradient(
+    45deg,
+    var(--bg-color1) 0%,
+    var(--bg-color2) 12%,
+    var(--bg-color3) 25%,
+    var(--bg-color4) 37%,
+    var(--bg-color5) 50%,
+    var(--bg-color6) 62%,
+    var(--bg-color7) 75%,
+    var(--bg-color8) 87%,
+    var(--bg-color1) 100%
+  );
+  background-size: 500%;
+  animation: gradientAnimation 10s infinite;
 }
 
-a {
-  color: var(--link-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-}
-
-button {
-  background-color: var(--button-bg-color);
-  color: var(--button-text-color);
-  border: none;
-  padding: var(--button-padding);
-  border-radius: var(--button-radius);
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: var(--button-hover-bg-color);
-}
-
-input {
-  background-color: var(--input-bg-color);
-  color: var(--input-text-color);
-  border: 2px solid var(--input-border-color);
-  padding: var(--input-padding);
-  border-radius: var(--input-radius);
-}
-
-input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
-
-.card {
-  background-color: var(--card-bg-color);
-  border: 2px solid var(--card-border-color);
-  border-radius: var(--card-radius);
-  padding: var(--card-padding);
-  box-shadow: 0 4px 8px var(--shadow-color);
-}
-
-.card h3 {
-  color: var(--card-text-color);
-  margin-bottom: 12px;
-}
-
-.card p {
-  color: var(--card-text-color);
-}
-
-.navbar {
-  background-color: var(--navbar-bg-color);
-  height: var(--navbar-height);
+body {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.navbar a {
-  color: var(--navbar-text-color);
-  font-size: 18px;
-}
-
-.header {
-  background-color: var(--header-bg-color);
-  padding: 20px;
-  text-align: center;
-  font-size: var(--header-font-size);
-}
-
-.footer {
-  background-color: var(--footer-bg-color);
-  padding: 20px;
-  text-align: center;
-  font-size: var(--footer-font-size);
-}
-
-.icon {
-  font-size: var(--icon-size);
-  color: var(--icon-color);
+  margin: 0px;
+  flex-direction: column;
 }

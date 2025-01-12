@@ -1,8 +1,11 @@
 // Componente barra de navegación
 // NavBar.jsx
+
+// Recursos
 import React from "react";
 import "./assets/css/navbar.css";
 
+// Componente
 const NavBar = ({ currentPage, onPageChange }) => {
   const handleClick = (section) => {
     onPageChange(section);

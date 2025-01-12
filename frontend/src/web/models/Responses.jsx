@@ -45,6 +45,40 @@ const Responses = {
   applyTheme: (theme) => {
     document.documentElement.className = theme;
   },
+  getSavedContents: () => {
+    const savedContents =
+      JSON.parse(localStorage.getItem("contentsSaved")) || [];
+    const favoritesList = document.getElementById("favorites-list");
+    favoritesList.innerHTML = "";
+    if (savedContents.length === 0) {
+      const noFavoritesMessage = document.createElement("li");
+      noFavoritesMessage.textContent =
+        "No has agregado documentacion en tus favoritos.";
+      favoritesList.appendChild(noFavoritesMessage);
+      return;
+    }
+    savedContents.forEach((content) => {
+      const contentData = Responses.getContentLabel(content);
+      if (contentData) {
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = `#${contentData}`;
+        link.textContent = contentData;
+        listItem.appendChild(link);
+        favoritesList.appendChild(listItem);
+      }
+    });
+  },
+  getContentLabel: (content) => {
+    const contents = {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React",
+      node: "Node.js",
+    };
+    return contents[content] || null;
+  },
 };
 
 export default Responses;

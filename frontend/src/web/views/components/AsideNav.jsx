@@ -30,7 +30,9 @@ const AsideNav = ({ isOpen, onToggle }) => {
           <button className="close-btn" onClick={() => onToggle(false)}>
             <img src={cerrarIcon} alt="Menu" className="icon-os-as" />
           </button>
-          <div className="asidecontent"></div>
+          <div className="asidecontent">
+            <ul id="favorites-list"></ul>
+          </div>
         </aside>
       </div>
     </>

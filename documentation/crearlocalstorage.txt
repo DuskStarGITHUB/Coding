@@ -1,0 +1,14 @@
+// Función para agregar un contenido al localStorage
+const addToFavorites = (content) => {
+  let savedContents = JSON.parse(localStorage.getItem("contentsSaved")) || [];
+  
+  // Añadir el nuevo contenido al array
+  if (!savedContents.includes(content)) {
+    savedContents.push(content);
+    localStorage.setItem("contentsSaved", JSON.stringify(savedContents));
+  }
+};
+
+// Ejemplo de agregar un contenido
+addToFavorites("html");
+addToFavorites("react");

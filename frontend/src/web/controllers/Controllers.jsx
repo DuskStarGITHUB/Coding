@@ -24,11 +24,14 @@ export const ControllerViews = () => {
   const [currentPage, setCurrentPage] = useState("inicio");
   const [theme, setTheme] = useState("default");
   const [isAsideOpen, setIsAsideOpen] = useState(false);
-
   useEffect(() => {
     Responses.applyTheme(theme);
   }, [theme]);
-
+  useEffect(() => {
+    if (isAsideOpen) {
+      Responses.getSavedContents();
+    }
+  }, [isAsideOpen]);
   return (
     <>
       <NavBar currentPage={currentPage} onPageChange={setCurrentPage} />

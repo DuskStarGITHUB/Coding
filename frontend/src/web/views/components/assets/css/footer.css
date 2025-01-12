@@ -1,7 +1,6 @@
 /* Css del footer*/
 .footer {
   background-color: var(--footer-bg-color);
-  text-align: center;
   --angle: 0deg;
   border: 1px solid;
   border-image: conic-gradient(
@@ -21,8 +20,9 @@
     1;
   animation: 10s rotateBorder linear infinite;
   top: auto;
-  bottom: 100%;
+  bottom: 0;
+  text-align: center;
   width: 99.92%;
   z-index: 1000;
-  position: relative;
+  position: fixed;
 }

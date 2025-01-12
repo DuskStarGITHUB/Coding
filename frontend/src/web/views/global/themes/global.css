@@ -1,8 +1,5 @@
 /* Css aplicado a todos los elementos en la web */
-html {
-  height: 100%;
-  width: 100%;
-  z-index: 0;
+body {
   color: var(--text-color);
   background: linear-gradient(
     45deg,
@@ -18,10 +15,14 @@ html {
   );
   background-size: 500%;
   animation: gradientAnimation 10s infinite;
-}
-
-body {
   display: flex;
   margin: 0px;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+main {
+  z-index: 1;
 }

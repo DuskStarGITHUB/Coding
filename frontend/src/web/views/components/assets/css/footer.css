@@ -19,10 +19,22 @@
     )
     1;
   animation: 10s rotateBorder linear infinite;
-  top: auto;
-  bottom: 0;
   text-align: center;
-  width: 99.92%;
-  z-index: 1000;
-  position: fixed;
+  margin-top: auto;
+  padding: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transition: padding-left 0.5s ease-in-out;
+}
+
+.footer.open {
+  left: 250px;
+  transition: left 0.5s ease-in-out;
+}
+
+.footer.closed {
+  left: 0;
 }

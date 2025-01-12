@@ -1,0 +1,8 @@
+/* Responsive */
+@media (max-width: 768px) {
+  .footer,
+  .container-content {
+    padding-left: 0;
+    font-size: 10px;
+  }
+}

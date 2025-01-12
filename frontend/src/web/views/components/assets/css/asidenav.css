@@ -1,0 +1,44 @@
+/* Css del aside de navegacion */
+.container-aside-outside {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.button-drop-asidenav {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-os-as {
+  width: 32px;
+  height: 32px;
+}
+
+.container-aside-inside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 3;
+}
+
+.container-aside-inside.open {
+  transform: translateX(0);
+}
+
+.container-aside-inside.closed {
+  transform: translateX(-100%);
+}
+
+.asidenav {
+  padding: 20px;
+}

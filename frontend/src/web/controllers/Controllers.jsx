@@ -7,7 +7,7 @@ import Testing from "../../test/TestingCMV"; //Controlador Modelo Vista Testeo
 import Responses from "../models/Responses"; //Modelo de metodos de respuestas rapidas
 import NavBar from "../views/components/NavBar";
 import Footer from "../views/components/Footer";
-
+import AsideNav from "../views/components/AsideNav";
 // Lista de controladores
 
 export const ControllerTest = () => {
@@ -23,14 +23,20 @@ export const ControllerTest = () => {
 export const ControllerViews = () => {
   const [currentPage, setCurrentPage] = useState("inicio");
   const [theme, setTheme] = useState("default");
+  const [isAsideOpen, setIsAsideOpen] = useState(false);
+
   useEffect(() => {
     Responses.applyTheme(theme);
   }, [theme]);
+
   return (
     <>
       <NavBar currentPage={currentPage} onPageChange={setCurrentPage} />
-      {Responses.getPageModel(currentPage)}
-      <Footer />
+      <div className={`container-content ${isAsideOpen ? "open" : "closed"}`}>
+        {Responses.getPageModel(currentPage)}
+        <Footer />
+      </div>
+      <AsideNav isOpen={isAsideOpen} onToggle={setIsAsideOpen} />
     </>
   );
 };

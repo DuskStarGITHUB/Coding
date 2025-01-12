@@ -3,7 +3,7 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  z-index: 1000;
+  z-index: 3;
 }
 
 .button-drop-asidenav {
@@ -15,6 +15,24 @@
 .icon-os-as {
   width: 32px;
   height: 32px;
+}
+
+.icon-os-as:hover {
+  opacity: 0.5;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.close-btn:hover {
+  opacity: 0.5;
 }
 
 .container-aside-inside {

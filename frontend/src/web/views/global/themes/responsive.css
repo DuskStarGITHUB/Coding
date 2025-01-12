@@ -1,5 +1,10 @@
 /* Responsive */
 @media (max-width: 768px) {
+  .close-btn {
+    top: 10px;
+    left: 10px;
+    right: auto;
+  }
   .footer,
   .container-content {
     padding-left: 0;

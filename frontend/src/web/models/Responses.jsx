@@ -62,7 +62,7 @@ const Responses = {
       if (contentData) {
         const listItem = document.createElement("li");
         const link = document.createElement("a");
-        link.href = `#${contentData}`;
+        link.href = `#miweb/${content}`;
         link.textContent = contentData;
         listItem.appendChild(link);
         favoritesList.appendChild(listItem);

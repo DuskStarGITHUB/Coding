@@ -1,0 +1,33 @@
+/* Estilos para las tarjetas de la pagian contenidos */
+.content-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-card h3 {
+  margin: 0 0 10px;
+}
+
+.content-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content-card button:hover {
+  background-color: #0056b3;
+}

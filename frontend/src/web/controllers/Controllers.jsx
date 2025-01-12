@@ -5,9 +5,6 @@
 import React, { useState, useEffect } from "react";
 import Testing from "../../test/TestingCMV"; //Controlador Modelo Vista Testeo
 import Responses from "../models/Responses"; //Modelo de metodos de respuestas rapidas
-import "../views/global/themes/global.css";
-import "../views/global/themes/themes.css";
-import "../views/global/animations/rainbow.css";
 import NavBar from "../views/components/NavBar";
 import Footer from "../views/components/Footer";
 

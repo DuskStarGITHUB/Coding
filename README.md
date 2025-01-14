@@ -1,6 +1,7 @@
 # Coding - WEB de Documentación y Componentes Reutilizables
 
 **Autor:** DuskStar
+
 **Descripción:** Un proyecto web completo con frontend y backend, desarrollado con tecnologías modernas para documentar herramientas y técnicas de desarrollo web. Diseñado para ser escalable, seguir buenas prácticas y servir como referencia para futuros proyectos.
 
 ---
@@ -25,7 +26,6 @@
 | **CSS**        | Estilo y diseño visual.              |
 | **JavaScript** | Lógica de interacción y dinámica.    |
 | **React**      | Creación de interfaces escalables.   |
-| **Node.js**    | Backend y manejo de procesos.        |
 | **SQL**        | Gestor de bases de datos relacional. |
 
 ### Mas tecnologias en documentacion o explora la web.

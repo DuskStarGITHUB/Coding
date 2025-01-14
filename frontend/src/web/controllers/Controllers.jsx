@@ -21,6 +21,7 @@ export const ControllerTest = () => {
 };
 
 export const ControllerViews = () => {
+  // Controlador para controlar la vista web
   const [currentPage, setCurrentPage] = useState("inicio");
   const [theme, setTheme] = useState("default");
   const [isAsideOpen, setIsAsideOpen] = useState(false);

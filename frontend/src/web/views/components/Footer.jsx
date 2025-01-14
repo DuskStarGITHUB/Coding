@@ -9,7 +9,10 @@ import "./assets/css/footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2025 - Todos los derechos reservados</p>
+      <p>
+        © {new Date().getFullYear()} <a className="rainbow-text">CODING</a> -
+        Todos los derechos reservados.
+      </p>
     </footer>
   );
 };

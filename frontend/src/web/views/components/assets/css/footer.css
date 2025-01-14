@@ -36,3 +36,9 @@
 .footer.closed {
   left: 0;
 }
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+

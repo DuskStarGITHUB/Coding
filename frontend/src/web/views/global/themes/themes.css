@@ -21,4 +21,22 @@
   --color-8: #6600ff;
   --color-9: #cc00cc;
   --color-10: #ff0066;
+  --hover-color: #555;
+  --highlight-color: #6ae6ffae;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --link-color: #00aaff;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color1);
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  padding: 20px;
+}
+

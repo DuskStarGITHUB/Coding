@@ -1,4 +1,24 @@
 /* Css del aside de navegacion */
+.container-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 0;
+  width: 100%;
+  min-height: 100vh;
+  transition: padding-left 0.25s ease-in-out;
+}
+
+.container-content.open {
+  padding-left: 250px;
+}
+
+.container-content.closed {
+  padding-left: 0;
+}
+
 .container-aside-outside {
   position: fixed;
   top: 10px;

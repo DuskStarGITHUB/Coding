@@ -1,5 +1,9 @@
-/* Responsive */
-@media (max-width: 768px) {
+/* Elementos generales */
+
+@media (max-width: 900px) {
+  body{
+    text-align: justify;
+  }
   .close-btn {
     top: 10px;
     left: 10px;
@@ -9,5 +13,48 @@
   .container-content {
     padding-left: 0;
     font-size: 10px;
+  }
+  .container-aside-inside {
+    width: 22%;
+  }
+  .container-content.open {
+    padding-left: 140px;
+  }
+  #favorites-list {
+    font-size: 10px;
+    margin-top: 70%;
+    text-decoration: none;
+    padding-left: 0;
+  }
+  .navbar {
+    gap: 10px;
+    padding: 10px 0px;
+    left: 53%;
+  }
+}
+
+/* Elementos pagian incio */
+@media (max-width: 768px) {
+  .pi-page-title {
+    font-size: 1.3rem;
+  }
+  .pi-section-title {
+    font-size: 1.2rem;
+  }
+  .pi-section-description,
+  .pi-feature-item,
+  .pi-tech-item {
+    font-size: 1rem;
+  }
+  .pi-main-container {
+    padding: 15px;
+  }
+  .pi-header {
+    padding: 20px;
+  }
+  .pi-section-introduction,
+  .pi-section-features,
+  .pi-section-technologies {
+    padding: 20px;
   }
 }

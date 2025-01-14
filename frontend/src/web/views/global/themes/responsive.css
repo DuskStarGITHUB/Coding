@@ -1,7 +1,7 @@
 /* Elementos generales */
 
 @media (max-width: 900px) {
-  body{
+  body {
     text-align: justify;
   }
   .close-btn {
@@ -13,6 +13,10 @@
   .container-content {
     padding-left: 0;
     font-size: 10px;
+  }
+  .footer {
+    left: -47px;
+    width: 116%;
   }
   .container-aside-inside {
     width: 22%;
@@ -29,32 +33,38 @@
   .navbar {
     gap: 10px;
     padding: 10px 0px;
-    left: 53%;
+    left: 55%;
   }
 }
 
 /* Elementos pagian incio */
 @media (max-width: 768px) {
   .pi-page-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .pi-section-title {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .pi-section-description,
   .pi-feature-item,
   .pi-tech-item {
-    font-size: 1rem;
+    font-size: 0.5rem;
+  }
+  .pi-card {
+    width: 80%;
+  }
+  .pi-card h3 {
+    font-size: 0.6rem;
+  }
+  .pi-card p {
+    font-size: 0.6rem;
   }
   .pi-main-container {
-    padding: 15px;
+    margin-left: 0%;
   }
-  .pi-header {
-    padding: 20px;
-  }
-  .pi-section-introduction,
-  .pi-section-features,
-  .pi-section-technologies {
-    padding: 20px;
+  .pi-section-technologies,
+  .pi-section-code,
+  .pi-section-contact {
+    width: 100%;
   }
 }

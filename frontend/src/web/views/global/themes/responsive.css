@@ -39,6 +39,9 @@
 
 /* Elementos pagian incio */
 @media (max-width: 768px) {
+  .container-content.closed {
+    padding-left: 15%;
+  }
   .pi-page-title {
     font-size: 1rem;
   }

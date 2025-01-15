@@ -26,8 +26,8 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Clona el repositorio:
 ```
-   git clone https://github.com/usuario/repositorio.git
-   cd repositorio
+   git clone https://github.com/DuskStarGITHUB/Coding
+   cd Coding
 ```
 2. Instala las dependencias:
 ```

@@ -80,36 +80,32 @@ const Responses = {
   },
   getContentLabelById: (id) => {
     const contents = {
-      "html-eti": "Etiquetas HTML",
-      "html-cb": "Códigos base",
-      "html-meta": "Metadatos",
-      "html-imports": "Importaciones",
-      "html-bp": "Buenas prácticas",
-      "css-imports": "Importaciones CSS",
-      "css-select": "Selectores CSS",
-      "css-property": "Propiedad CSS",
-      "css-value": "Valor CSS",
-      "css-comments": "Comentarios CSS",
-      "css-rules": "Reglas CSS",
-      "css-bp": "Buenas prácticas CSS",
-      "js-reserved": "Palabras reservadas JS",
-      "js-commands": "Comandos JS",
-      "js-functions": "Funciones JS",
-      "js-cmv": "CMV JS",
+      "html-etiquetas": "Etiquetas HTML",
+      "html-codigos-base": "Códigos base",
+      "html-metadatos": "Metadatos",
+      "css-importaciones": "Importaciones CSS",
+      "html-buenas-practicas": "Buenas prácticas HTML",
+      "html-importaciones": "Importaciones HTML",
+      "css-selectores": "Selectores CSS",
+      "css-propiedad": "Propiedad CSS",
+      "css-valor": "Valor CSS",
+      "css-buenas-practicas": "Buenas prácticas CSS",
+      "css-reglas": "Reglas CSS",
+      "css-comentarios": "Comentarios CSS",
+      "js-palabras-reservadas": "Palabras reservadas JS",
+      "js-comandos": "Comandos JS",
+      "js-funciones": "Funciones JS",
+      "js-programacion-modular": "Programación Modular JS",
       "js-dom": "DOM JS",
-      "js-modular": "Programación Modular JS",
-      "js-bp": "Buenas prácticas JS",
+      "js-cmv": "CMV JS",
+      "js-buenas-practicas": "Buenas prácticas JS",
       "react-vite": "Vite React",
-      "react-components": "Componentes React",
-      "react-cb": "Código Base React",
-      "react-bp": "Buenas prácticas React",
-      "react-structure": "Estructura de Archivos React",
+      "react-componentes": "Componentes React",
+      "react-estructura-de-archivos": "Estructura de Archivos React",
+      "react-buenas-practicas": "Buenas prácticas React",
+      "react-codigo-base": "Código Base React",
     };
-    const contentLabel = contents[id];
-    if (!contentLabel) {
-      console.warn(`Contenido no encontrado para ID: ${id}`);
-    }
-    return contentLabel || `ID no encontrado: ${id}`;
+    return contents[id] || `ID no encontrado: ${id}`;
   },
 };
 

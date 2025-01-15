@@ -80,3 +80,25 @@
 .asidenav {
   padding: 20px;
 }
+
+.favorite-item {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  padding: 5px;
+  list-style-type: none;
+  background-color: var(--bg-color3);
+  width: 120%;
+  border-radius: 8px;
+  transform: translate(-20%,0);
+}
+
+.favorite-item a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-item a:hover {
+  color: var(--text-color);
+}

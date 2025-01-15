@@ -1,33 +1,68 @@
-/* Estilos para las tarjetas de la pagian contenidos */
+/* Estilos pagian de contenidos */
 .content-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   padding: 20px;
 }
 
 .content-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    var(--color-1),
+    var(--color-2),
+    var(--color-3),
+    var(--color-4),
+    var(--color-5),
+    var(--color-6),
+    var(--color-7),
+    var(--color-8),
+    var(--color-9),
+    var(--color-10)
+  );
+  background-size: 400%;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
   padding: 20px;
-  width: 200px;
+  width: 220px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+  animation: gradient-shift 10s ease infinite;
+  position: relative;
 }
 
 .content-card h3 {
   margin: 0 0 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.content-card span {
+  display: block;
+  font-size: 0.9em;
+  color: var(--text-2);
+  margin-bottom: 10px;
+}
+
+.content-card p {
+  font-size: 0.95em;
+  line-height: 1.4;
 }
 
 .content-card button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px;
+  background-color: var(--link-color);
+  color: var(--text-color);
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .content-card button:hover {
-  background-color: #0056b3;
+  background-color: var(--hover-color);
+  transform: scale(1.05);
 }

@@ -8,7 +8,8 @@ const PageHome = () => {
       <header className="pi-header">
         <div className="pi-header-content">
           <h1 className="pi-page-title">
-            Coding - Documentación y Componentes
+            <span className="rainbow-text">Coding</span> - Documentación y
+            Componentes
           </h1>
           <p className="pi-intro-text">
             "Tu guía práctica para el desarrollo web y la reutilización
@@ -92,23 +93,67 @@ const PageHome = () => {
           </p>
           <pre className="pi-code-block">
             <code>{`
-    git clone https://github.com/tu_usuario/Coding.git
+    git clone https://github.com/DuskStarGITHUB/Coding
     cd Coding
             `}</code>
           </pre>
         </article>
       </section>
-      {/* Contacto */}
-      <section className="pi-section-contact">
-        <article className="pi-contact-article">
-          <h2 className="pi-section-title">Contacto</h2>
-          <p className="pi-section-description">
-            Si tienes alguna pregunta o sugerencia, no dudes en contactarnos:
+      {/* Acerca de la web */}
+      <section className="pi-section-about">
+        <article className="pi-about-article">
+          <h2 className="pi-section-title">Funcionalidad de la WEB</h2>
+          <h3 className="pi-section-subtitle">Guardar contenido a favoritos</h3>
+          <p>
+            Puedes guardar cierto contenido para dejarlo mas accesible cuando
+            entras a la web, de es amanera aumentaras tu productividad.
           </p>
-          <address className="pi-contact-info">
-            📧 Email: duskstar@coding.com <br />
-            🌐 Web: www.coding.com
-          </address>
+          <h3 className="pi-section-subtitle">Prueba un fragmento de codigo</h3>
+          <p>
+            Puedes ejecutar html, css, js y react (js) de maner aislada con una
+            vista en vivo para tu pequeño componente.
+          </p>
+          <h3 className="pi-section-subtitle">
+            Consigue componentes para tu proyecto
+          </h3>
+          <p>
+            Puedes conseguir componentes para tu proyecto de manera gratuita y
+            altamente <span className="rainbow-text">personalizables</span>
+          </p>
+        </article>
+        <article className="pi-about-article">
+          <h2 className="pi-section-title">Acerca de la WEB</h2>
+          <h3 className="pi-section-subtitle">LocalStorage</h3>
+          <p>
+            Implementamos la funcionalidad de la web en un estado local, para su
+            correcto funcionamiento porfavor no borrar los datos de esta web o
+            perdera su progreso.
+          </p>
+          <h3 className="pi-section-subtitle">Cookies</h3>
+          <p>
+            No implementamos cookies en la web ya que concideramos dichas como
+            inecesarias para este proyecto.
+          </p>
+          <h3 className="pi-section-subtitle">Sesiones</h3>
+          <p>
+            No implementamos sesiones en la web ya que concideramos dichas como
+            inecesarias
+          </p>
+        </article>
+        <article className="pi-create-article">
+          <h2 className="pi-section-title">Quieres Contribuir?</h2>
+          <p>
+            Si deseas ayudar con aportación de código/documentación o
+            funcionalidad puedes hacerlo en la plataforma de GitHub.
+          </p>
+          <button
+            className="btn-repository"
+            onClick={() =>
+              window.open("https://github.com/DuskStarGITHUB/Coding", "_blank")
+            }
+          >
+            Ir al repositorio
+          </button>
         </article>
       </section>
     </main>

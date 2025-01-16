@@ -44,7 +44,7 @@
 .close-btn {
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: 7%;
   background: none;
   border: none;
   cursor: pointer;
@@ -71,6 +71,8 @@
 
 .container-aside-inside.open {
   transform: translateX(0);
+  overflow-y: auto;
+  max-height: 100%;
 }
 
 .container-aside-inside.closed {
@@ -89,7 +91,7 @@
   background-color: var(--bg-color3);
   width: 120%;
   border-radius: 8px;
-  transform: translate(-20%,0);
+  transform: translate(-20%, 0);
 }
 
 .favorite-item a {

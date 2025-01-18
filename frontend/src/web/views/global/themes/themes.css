@@ -122,7 +122,7 @@
 }
 
 /* Tema multicolor */
-:root.multicolor {
+:root.pie {
   --bg-color1: #ffcccc;
   --bg-color2: #ffe5cc;
   --bg-color3: #ffffcc;
@@ -181,6 +181,346 @@
   --link-color: #bbbbbb;
   --text-1: #ffffff;
   --text-2: #f5f5f5;
+}
+
+/* Tema Retro */
+:root.pink {
+  --bg-color1: #ffefd5;
+  --bg-color2: #ffdab9;
+  --bg-color3: #f5deb3;
+  --bg-color4: #e9967a;
+  --bg-color5: #ffa07a;
+  --bg-color6: #ffa500;
+  --bg-color7: #ff8c00;
+  --bg-color8: #ff6347;
+  --text-color: #800000;
+  --border-color: #8b4513;
+  --footer-bg-color: #cd853f;
+  --color-1: #ffd700;
+  --color-2: #daa520;
+  --color-3: #b8860b;
+  --color-4: #ffdead;
+  --color-5: #d2691e;
+  --color-6: #a0522d;
+  --color-7: #8b0000;
+  --color-8: #ff4500;
+  --color-9: #ffa500;
+  --color-10: #f4a460;
+  --hover-color: #ff7f50;
+  --highlight-color: #ffcccb;
+  --shadow-color: rgba(255, 165, 0, 0.3);
+  --link-color: #ff6347;
+  --text-1: #8b4513;
+  --text-2: #800000;
+}
+
+/* Tema Espacial */
+:root.space {
+  --bg-color1: #0b0c10;
+  --bg-color2: #1f2833;
+  --bg-color3: #2e4053;
+  --bg-color4: #4a4e69;
+  --bg-color5: #6b6b83;
+  --bg-color6: #6c757d;
+  --bg-color7: #8a8d97;
+  --bg-color8: #99aab5;
+  --text-color: #66fcf1;
+  --border-color: #45a29e;
+  --footer-bg-color: #0b0c10;
+  --color-1: #5cdb95;
+  --color-2: #05386b;
+  --color-3: #379683;
+  --color-4: #8ee4af;
+  --color-5: #edf5e1;
+  --color-6: #414a4c;
+  --color-7: #757575;
+  --color-8: #99aab5;
+  --color-9: #c5c6c7;
+  --color-10: #ffffff;
+  --hover-color: #1f2833;
+  --highlight-color: #66fcf1;
+  --shadow-color: rgba(102, 252, 241, 0.3);
+  --link-color: #45a29e;
+  --text-1: #ffffff;
+  --text-2: #c5c6c7;
+}
+
+/* Tema Neón */
+:root.neon {
+  --bg-color1: #000000;
+  --bg-color2: #1a1a1a;
+  --bg-color3: #262626;
+  --bg-color4: #333333;
+  --bg-color5: #404040;
+  --bg-color6: #4d4d4d;
+  --bg-color7: #595959;
+  --bg-color8: #666666;
+  --text-color: #39ff14;
+  --border-color: #ff00ff;
+  --footer-bg-color: #0d0d0d;
+  --color-1: #ff073a;
+  --color-2: #ff00ff;
+  --color-3: #00ffff;
+  --color-4: #39ff14;
+  --color-5: #fefe33;
+  --color-6: #ff4500;
+  --color-7: #ff1493;
+  --color-8: #9400d3;
+  --color-9: #1e90ff;
+  --color-10: #00fa9a;
+  --hover-color: #ff1493;
+  --highlight-color: #ff00ff;
+  --shadow-color: rgba(255, 0, 255, 0.3);
+  --link-color: #00ffff;
+  --text-1: #39ff14;
+  --text-2: #ff00ff;
+}
+
+/* Tema Naturaleza */
+:root.nature {
+  --bg-color1: #f0fff0;
+  --bg-color2: #98fb98;
+  --bg-color3: #8fbc8f;
+  --bg-color4: #66cdaa;
+  --bg-color5: #3cb371;
+  --bg-color6: #2e8b57;
+  --bg-color7: #228b22;
+  --bg-color8: #008000;
+  --text-color: #013220;
+  --border-color: #004d00;
+  --footer-bg-color: #f5fff5;
+  --color-1: #006400;
+  --color-2: #32cd32;
+  --color-3: #7fff00;
+  --color-4: #adff2f;
+  --color-5: #00ff7f;
+  --color-6: #20b2aa;
+  --color-7: #9acd32;
+  --color-8: #6b8e23;
+  --color-9: #556b2f;
+  --color-10: #4682b4;
+  --hover-color: #7cfc00;
+  --highlight-color: #00ff7f;
+  --shadow-color: rgba(34, 139, 34, 0.3);
+  --link-color: #32cd32;
+  --text-1: #013220;
+  --text-2: #004d00;
+}
+
+/* Tema Acuático */
+:root.aquatic {
+  --bg-color1: #e0f7fa;
+  --bg-color2: #2e8d99;
+  --bg-color3: #80deea;
+  --bg-color4: #4dd0e1;
+  --bg-color5: #26c6da;
+  --bg-color6: #00bcd4;
+  --bg-color7: #0097a7;
+  --bg-color8: #006064;
+  --text-color: #002f6c;
+  --border-color: #007c91;
+  --footer-bg-color: #e0f7fa;
+  --color-1: #4dd0e1;
+  --color-2: #5f8f96;
+  --color-3: #00acc1;
+  --color-4: #00838f;
+  --color-5: #006064;
+  --color-6: #004d4d;
+  --color-7: #003333;
+  --color-8: #001a1a;
+  --color-9: #001f33;
+  --color-10: #003f5c;
+  --hover-color: #00e5ff;
+  --highlight-color: #1de9b6;
+  --shadow-color: rgba(0, 188, 212, 0.3);
+  --link-color: #0c5e69;
+  --text-1: #002f6c;
+  --text-2: #004d4d;
+}
+
+/* Tema Pastel */
+:root.cupcake {
+  --bg-color1: #ffebee;
+  --bg-color2: #fce4ec;
+  --bg-color3: #f3e5f5;
+  --bg-color4: #ede7f6;
+  --bg-color5: #e8eaf6;
+  --bg-color6: #e3f2fd;
+  --bg-color7: #e1f5fe;
+  --bg-color8: #e0f7fa;
+  --text-color: #6d4c41;
+  --border-color: #d7ccc8;
+  --footer-bg-color: #fff8e1;
+  --color-1: #f8bbd0;
+  --color-2: #d1c4e9;
+  --color-3: #b39ddb;
+  --color-4: #90caf9;
+  --color-5: #80deea;
+  --color-6: #80cbc4;
+  --color-7: #c5e1a5;
+  --color-8: #ffe082;
+  --color-9: #ffab91;
+  --color-10: #bcaaa4;
+  --hover-color: #ffcdd2;
+  --highlight-color: #ffcc80;
+  --shadow-color: rgba(255, 204, 188, 0.3);
+  --link-color: #f48fb1;
+  --text-1: #4e342e;
+  --text-2: #3e2723;
+}
+
+/* Tema Cyberpunk */
+:root.cyberpunk {
+  --bg-color1: #0a0f0d;
+  --bg-color2: #141e26;
+  --bg-color3: #1a2631;
+  --bg-color4: #1d2b36;
+  --bg-color5: #222831;
+  --bg-color6: #1b262c;
+  --bg-color7: #1c2c35;
+  --bg-color8: #112e33;
+  --text-color: #f72585;
+  --border-color: #3a0ca3;
+  --footer-bg-color: #240046;
+  --color-1: #7209b7;
+  --color-2: #560bad;
+  --color-3: #480ca8;
+  --color-4: #3a0ca3;
+  --color-5: #3f37c9;
+  --color-6: #4361ee;
+  --color-7: #4895ef;
+  --color-8: #4cc9f0;
+  --color-9: #f72585;
+  --color-10: #9d4edd;
+  --hover-color: #f03a47;
+  --highlight-color: #ff0090;
+  --shadow-color: rgba(247, 37, 133, 0.3);
+  --link-color: #3a0ca3;
+  --text-1: #ffffff;
+  --text-2: #d0cde1;
+}
+
+/* Tema Fuego */
+:root.fire {
+  --bg-color1: #330000;
+  --bg-color2: #4d0000;
+  --bg-color3: #660000;
+  --bg-color4: #800000;
+  --bg-color5: #990000;
+  --bg-color6: #b20000;
+  --bg-color7: #cc0000;
+  --bg-color8: #e50000;
+  --text-color: #ff4500;
+  --border-color: #ff6347;
+  --footer-bg-color: #b22222;
+  --color-1: #ff0000;
+  --color-2: #ff4500;
+  --color-3: #ff6347;
+  --color-4: #ff7f50;
+  --color-5: #ff8c00;
+  --color-6: #ffa500;
+  --color-7: #ffd700;
+  --color-8: #ffff00;
+  --color-9: #ffcc00;
+  --color-10: #ff9900;
+  --hover-color: #ff4500;
+  --highlight-color: #ffa500;
+  --shadow-color: rgba(255, 69, 0, 0.3);
+  --link-color: #ff4500;
+  --text-1: #ffffff;
+  --text-2: #f5deb3;
+}
+
+/* Tema Mar */
+:root.sea {
+  --bg-color1: #001f3f;
+  --bg-color2: #003366;
+  --bg-color3: #004080;
+  --bg-color4: #00509e;
+  --bg-color5: #0066cc;
+  --bg-color6: #0073e6;
+  --bg-color7: #0080ff;
+  --bg-color8: #3399ff;
+  --text-color: #e0f7fa;
+  --border-color: #00bfff;
+  --footer-bg-color: #003366;
+  --color-1: #0099cc;
+  --color-2: #33aaff;
+  --color-3: #66ccff;
+  --color-4: #99ddff;
+  --color-5: #b3e6ff;
+  --color-6: #ccf0ff;
+  --color-7: #e6faff;
+  --color-8: #ffffff;
+  --color-9: #80dfff;
+  --color-10: #00bfff;
+  --hover-color: #33ccff;
+  --highlight-color: #66e0ff;
+  --shadow-color: rgba(0, 191, 255, 0.3);
+  --link-color: #00bfff;
+  --text-1: #e0f7fa;
+  --text-2: #003366;
+}
+
+/* Tema Tierra */
+:root.earth {
+  --bg-color1: #3d2c29;
+  --bg-color2: #4b3621;
+  --bg-color3: #5d432c;
+  --bg-color4: #6c4f3c;
+  --bg-color5: #7b5e47;
+  --bg-color6: #8a684f;
+  --bg-color7: #9b7c57;
+  --bg-color8: #ae956b;
+  --text-color: #ffe4ca;
+  --border-color: #8b5e3c;
+  --footer-bg-color: #6c4f3c;
+  --color-1: #c8a165;
+  --color-2: #a67c52;
+  --color-3: #885a41;
+  --color-4: #6f4e37;
+  --color-5: #543d29;
+  --color-6: #8b4513;
+  --color-7: #a0522d;
+  --color-8: #cd853f;
+  --color-9: #deb887;
+  --color-10: #f4a460;
+  --hover-color: #8b4513;
+  --highlight-color: #cd853f;
+  --shadow-color: rgba(139, 69, 19, 0.3);
+  --link-color: #a0522d;
+  --text-1: #ffffff;
+  --text-2: #964a14;
+}
+/* Tema Chinese */
+:root.chinese {
+  --bg-color1: #ffefd5;
+  --bg-color2: #fff4e6;
+  --bg-color3: #ffe4b5;
+  --bg-color4: #ffebcd;
+  --bg-color5: #ffe5d5;
+  --bg-color6: #ffdab9;
+  --bg-color7: #ffd700;
+  --bg-color8: #d4af37;
+  --text-color: #b22222;
+  --border-color: #8b0000;
+  --footer-bg-color: #ff4500;
+  --color-1: #ff0000;
+  --color-2: #ff4500;
+  --color-3: #ff6347;
+  --color-4: #b8860b;
+  --color-5: #ffd700;
+  --color-6: #dda0dd;
+  --color-7: #e9967a;
+  --color-8: #c0c0c0;
+  --color-9: #8b4513;
+  --color-10: #cd5c5c;
+  --hover-color: #ff6347;
+  --highlight-color: #ff0000;
+  --shadow-color: rgba(255, 69, 0, 0.3);
+  --link-color: #b22222;
+  --text-1: #8b0000;
+  --text-2: #800000;
 }
 
 body {

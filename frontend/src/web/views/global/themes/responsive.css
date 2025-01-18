@@ -46,6 +46,9 @@
   .favorite-item {
     width: 110%;
   }
+  .input-theme {
+    display: none;
+  }
 }
 
 /* Elementos pagian incio */

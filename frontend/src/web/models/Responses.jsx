@@ -42,8 +42,9 @@ const Responses = {
     };
     return pages[page] || <div>Error 404: Página no encontrada</div>;
   },
-  applyTheme: (theme) => {
-    document.documentElement.className = theme;
+  applyTheme: (themeName) => {
+    const htmlElement = document.documentElement;
+    htmlElement.className = themeName;
   },
   getSavedContents: () => {
     const savedContents = JSON.parse(localStorage.getItem("contentsSaved"));

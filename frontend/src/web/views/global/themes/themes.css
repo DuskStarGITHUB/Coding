@@ -29,6 +29,37 @@
   --text-2: #000;
 }
 
+/* Tema DuskStar */
+:root.duskstar {
+  --bg-color1: #000000;
+  --bg-color2: #121212;
+  --bg-color3: #161515;
+  --bg-color4: #13130f;
+  --bg-color5: #494402;
+  --bg-color6: #494402;
+  --bg-color7: #1d1515;
+  --bg-color8: #494402;
+  --text-color: #ffd700;
+  --border-color: #ffaa00;
+  --footer-bg-color: #1a1a1a;
+  --color-1: #ffcc00;
+  --color-2: #ffaa00;
+  --color-3: #d4af37;
+  --color-4: #b8860b;
+  --color-5: #8b7500;
+  --color-6: #665c00;
+  --color-7: #574f07;
+  --color-8: #46400b;
+  --color-9: #36320b;
+  --color-10: #292609;
+  --hover-color: #ffdd44;
+  --highlight-color: #ffbf00;
+  --shadow-color: rgba(255, 215, 0, 0.3);
+  --link-color: #ffc107;
+  --text-1: #ffffff;
+  --text-2: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -8,8 +8,9 @@ import Responses from "../models/Responses"; //Modelo de metodos de respuestas r
 import NavBar from "../views/components/NavBar";
 import Footer from "../views/components/Footer";
 import AsideNav from "../views/components/AsideNav";
-// Lista de controladores
+import ThemeSwitcher from "../views/components/ThemeCase";
 
+// Lista de controladores
 export const ControllerTest = () => {
   // Controlador para testear respuestas
   const [result, setResult] = useState(null);
@@ -21,7 +22,6 @@ export const ControllerTest = () => {
 };
 
 export const ControllerViews = () => {
-  // Controlador para controlar la vista web
   const [currentPage, setCurrentPage] = useState("inicio");
   const [theme, setTheme] = useState("default");
   const [isAsideOpen, setIsAsideOpen] = useState(false);
@@ -41,6 +41,7 @@ export const ControllerViews = () => {
         <Footer />
       </div>
       <AsideNav isOpen={isAsideOpen} onToggle={setIsAsideOpen} />
+      <ThemeSwitcher onThemeChange={setTheme} />
     </>
   );
 };

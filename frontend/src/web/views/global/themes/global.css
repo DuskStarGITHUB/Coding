@@ -1,7 +1,9 @@
 /* Css aplicado a todos los elementos en la web */
 html {
   overflow-x: hidden;
+  font-family: inherit !important;
 }
+
 body {
   font-size: 16px;
   color: var(--text-color);

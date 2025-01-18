@@ -39,7 +39,7 @@
   --bg-color6: #494402;
   --bg-color7: #1d1515;
   --bg-color8: #494402;
-  --text-color: #ffd700;
+  --text-color: #af9503;
   --border-color: #ffaa00;
   --footer-bg-color: #1a1a1a;
   --color-1: #ffcc00;
@@ -52,12 +52,13 @@
   --color-8: #46400b;
   --color-9: #36320b;
   --color-10: #292609;
-  --hover-color: #ffdd44;
-  --highlight-color: #ffbf00;
+  --hover-color: #5a4b0a;
+  --highlight-color: #a08432;
   --shadow-color: rgba(255, 215, 0, 0.3);
   --link-color: #ffc107;
   --text-1: #ffffff;
   --text-2: #ffffff;
+  font-family: 'Wingdings', 'Webdings' !important;
 }
 /* Tema blanco */
 :root.white {
@@ -523,12 +524,13 @@
   --text-2: #800000;
 }
 
+
+
 body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color1);
   color: var(--text-color);
-  font-family: "Roboto", sans-serif;
   line-height: 1.6;
 }
 
